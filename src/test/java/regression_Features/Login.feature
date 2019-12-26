@@ -20,6 +20,6 @@ Feature: Via login
 
   Scenario: login with valid credentials
     Given user launch Browser
-    Then user enter the  URL
+    Then user enter the URL
     Then user enter username and password
-    Then Click  signin
+    Then Click signin button

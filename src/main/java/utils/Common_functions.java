@@ -69,7 +69,7 @@ public class Common_functions {
 		testdata.setProperty(keylocval2, value);
 		out=new FileOutputStream(configfile);
 		//testdata.put(keylocval2, value);
-        testdata.store(out, "paritosh update");
+        testdata.store(out, "update");
 		 return testdata;
 		 
 		

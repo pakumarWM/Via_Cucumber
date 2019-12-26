@@ -19,7 +19,7 @@ public class Login_steps extends Driver_class{
 		
 	}
 	
-	@Then("^user enter the  URL$")
+	@Then("^user enter the URL$")
     public void geturl() throws IOException, InterruptedException {	
 		log = new Login_Class(driver);
 		log.geturl();
@@ -28,15 +28,15 @@ public class Login_steps extends Driver_class{
 
 	@Then("^user enter username and password$")
 	public void enter_credentials() throws IOException   {
-		log= new Login_Class(driver);
+		
 		log.enter_credentials();
 	    
 	}
 	
-	@Then("^Click  signin$")
+	@Then("^Click signin button$")
 	public void user_click_on_signin_button() throws IOException  {
 		System.out.println("abc in method");
-	 //log.user_click_on_signin_button();
+	 log.user_click_on_signin_button();
 	    
 	}
 	

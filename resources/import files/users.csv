@@ -1,0 +1,20 @@
+User ID,Firstname,Middlename,Lastname,Gender,Email,Role,Password,Major,Ethnicity,Class,Academic program,LTI User ID,SSO UID,SAT,ACT,GRE,MCAT,GMAT,LSAT
+astudent101,astudent,a.,101,male,astudent101@viaLT.com,student,t3stL0ad3r,Finance,Hispanic or Latino,Freshman,Banking & Financial Law,,,2400,36,1600,45,800,180
+astudent102,astudent,a.,102,male,astudent102@viaLT.com,student,t3stL0ad3r,Mathematics,White,,Humanities,,,2350,34,1550,42,780,160
+astudent103,astudent,a.,103,male,astudent103@viaLT.com,student,t3stL0ad3r,Finance,Not Specified / Declined to Specify,Doctoral,Neurobiology,,,2300,32,1500,40,760,150
+astudent104,astudent,a.,104,male,astudent104@viaLT.com,student,t3stL0ad3r,Economics,Two or More Races,,,,,,,,,,
+astudent105,astudent,a.,105,male,astudent105@viaLT.com,student,t3stL0ad3r,Mathematics,Hispanic or Latino,Freshman,,,,,,,,,
+astudent106,astudent,a.,106,female,astudent106@viaLT.com,student,t3stL0ad3r,Economics,White,,,,,,,,,,
+astudent107,astudent,a.,107,female,astudent107@viaLT.com,student,t3stL0ad3r,Finance,Two or More Races,,,,,,,,,,
+astudent108,astudent,a.,108,female,astudent108@viaLT.com,student,t3stL0ad3r,Mathematics,Not Specified / Declined to Specify,Doctoral,,,,,,,,,
+astudent109,astudent,a.,109,female,astudent109@viaLT.com,student,t3stL0ad3r,Economics,,Freshman,,,,,,,,,
+astudent110,astudent,a.,110,female,astudent110@viaLT.com,student,t3stL0ad3r,Finance,White,,,,,,,,,,
+afaculty101,afaculty,a.,101,male,afaculty101@viaLT.com,faculty,t3stL0ad3r,Mathematics,Two or More Races,,,,,,,,,,
+afaculty102,afaculty,a.,102,female,afaculty102@viaLT.com,faculty,t3stL0ad3r,Economics,Not Specified / Declined to Specify,Doctoral,,,,,,,,,
+aadmin101,aadmin,a.,101,male,aadmin101@viaLT.com,admin,t3stL0ad3r,,,,,,,,,,,,
+asupervisor101,asupervisor,a.,101,male,asupervisor101@viaLT.com,faculty,t3stL0ad3r,,,,,,,,,,,,
+asupervisor102,asupervisor,a.,102,male,asupervisor102@viaLT.com,faculty,t3stL0ad3r,,,,,,,,,,,,
+asupervisor103,asupervisor,a.,103,male,asupervisor103@viaLT.com,faculty,t3stL0ad3r,,,,,,,,,,,,
+amentor101,amentor,a.,101,male,amentor101@viaLT.com,external,t3stL0ad3r,,,,,,,,,,,,
+amentor102,amentor,a.,102,male,amentor102@viaLT.com,external,t3stL0ad3r,,,,,,,,,,,,
+amentor103,amentor,a.,103,male,amentor103@viaLT.com,external,t3stL0ad3r,,,,,,,,,,,,

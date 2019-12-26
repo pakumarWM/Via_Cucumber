@@ -23,10 +23,12 @@ public class Login_Class extends Common_functions{
     public void enter_credentials() throws IOException{
 		
 		sendkeys(By.id(getlocval("Email_textbox")), driver, 5, getdataval("email_login"));
-		sendkeys(By.id(getlocval("Password_textbox")), driver, 5, getdataval("passowrd"));
+		sendkeys(By.id(getlocval("Password_textbox")), driver, 5, getdataval("password"));
 	}
 	public void user_click_on_signin_button() throws IOException{
 		click(By.xpath(getlocval("SignIn_button")),driver,5);
+		click(By.xpath(getlocval("Import_button")), driver, 5);
+		click(By.xpath(getlocval("Hirarchy_link")), driver, 5);
 	}
 	
 }
