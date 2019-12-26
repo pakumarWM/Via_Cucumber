@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #Author: your.email@your.domain.com
 #Keywords Summary :
 #Feature: List of scenarios.
@@ -23,3 +24,4 @@ Feature: Via login
     Then user enter the URL
     Then user enter username and password
     Then Click signin button
+
