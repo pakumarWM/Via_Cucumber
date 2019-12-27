@@ -41,7 +41,48 @@ public class Login_steps extends Driver_class{
 	 //check 2
 
 	
+	   	}
+	
+	@Given("^Click on imports link$")
+	public void click_on_imports_link() throws IOException {
+	    
+		log.Click_on_import_button();
+	    
+	}
+	@Then("^Click on import users$")
+	public void click_on_import_users() throws IOException {
+	   log.Hirarchy_File_upload();
+	   
+	}
+
+	@Then("^Click on upload user csv file$")
+	public void click_on_upload_file_button() throws IOException {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@Then("^Verify user csv uploaded$")
+	public void verify_user_csv_uploaded() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
 	    
 	}
 	
+	@Then("^Click on import group templates$")
+	public void click_on_import_group_templates() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@Then("^Click on import groups$")
+	public void click_on_import_groups() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@Then("^Click on import membership$")
+	public void click_on_import_membership() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
 }

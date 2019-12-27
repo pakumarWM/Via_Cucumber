@@ -31,4 +31,29 @@ public class Login_Class extends Common_functions{
 		click(By.xpath(getlocval("Hirarchy_link")), driver, 5);
 	}
 	
+	public void Click_on_import_button() throws IOException{
+		
+		click(By.xpath(getlocval("Import_button")), driver, 5);
+	}
+	
+	public void Hirarchy_File_upload() throws IOException{
+		click(By.xpath(getlocval("Hirarchy_link")), driver, 5);
+	}
+	
+	public void User_File_upload() throws IOException{
+		
+	}
+	
+	public void GroupTemplates_File_upload() throws IOException{
+		
+	}
+
+	public void Groups_File_upload() throws IOException{
+	
+	}
+
+	public void Membership_File_upload() throws IOException{
+	
+	}
+
 }
