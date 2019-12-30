@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 #Author: your.email@your.domain.com
 #Keywords Summary :
 #Feature: List of scenarios.
@@ -18,7 +17,7 @@
 ## (Comments)
 #Sample Feature Definition Template
 Feature: Via login
-
+#login scenario
   Scenario: login with valid credentials
     Given user launch Browser
     Then user enter the URL
