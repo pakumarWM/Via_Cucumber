@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 		// glue is path to step definition file
 		monochrome = true, //display the console output in a proper readable format
 		strict = true, 
-		dryRun = true) 
+		dryRun = false) 
 
 
 public class Runner_Features {

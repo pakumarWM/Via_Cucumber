@@ -36,7 +36,6 @@ public class Login_steps extends Driver_class{
 
 	@Then("^Click signin button$")
 	public void user_click_on_signin_button() throws IOException  {
-		System.out.println("abc in method");
 		log.user_click_on_signin_button();
 	 //check 2
 
@@ -45,12 +44,13 @@ public class Login_steps extends Driver_class{
 	
 	@Given("^Click on imports link$")
 	public void click_on_imports_link() throws IOException {
-	    
+		log = new Login_Class(driver);
 		log.Click_on_import_button();
 	    
 	}
 	@Then("^Click on import users$")
 	public void click_on_import_users() throws IOException {
+		log = new Login_Class(driver);
 	   log.Hirarchy_File_upload();
 	   
 	}
@@ -63,6 +63,12 @@ public class Login_steps extends Driver_class{
 
 	@Then("^Verify user csv uploaded$")
 	public void verify_user_csv_uploaded() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+	
+	@Then("^Click on import hirarchy$")
+	public void click_on_import_hirarchy()  {
 	    // Write code here that turns the phrase above into concrete actions
 	    
 	}

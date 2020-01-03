@@ -27,8 +27,9 @@ public class Login_Class extends Common_functions{
 	}
 	public void user_click_on_signin_button() throws IOException{
 		click(By.xpath(getlocval("SignIn_button")),driver,5);
-		click(By.xpath(getlocval("Import_button")), driver, 5);
-		click(By.xpath(getlocval("Hirarchy_link")), driver, 5);
+		
+		
+		
 	}
 	
 	public void Click_on_import_button() throws IOException{
@@ -38,6 +39,12 @@ public class Login_Class extends Common_functions{
 	
 	public void Hirarchy_File_upload() throws IOException{
 		click(By.xpath(getlocval("Hirarchy_link")), driver, 5);
+		
+		String filePath=System.getProperty("user.dir")+"/resources/import files/hierarchy.csv";
+		sendkeys(By.xpath(getlocval("Upload_file")), driver, 5, filePath);
+		
+		
+		
 	}
 	
 	public void User_File_upload() throws IOException{

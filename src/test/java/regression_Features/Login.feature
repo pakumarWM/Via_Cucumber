@@ -1,4 +1,3 @@
-
 #Author: your.email@your.domain.com
 #Keywords Summary :
 #Feature: List of scenarios.
@@ -31,26 +30,26 @@ Feature: Via login
     Then Click on upload user csv file
     And Verify csv uploaded
 
-	Scenario: Check Import Hirarchy
-    Given Click on imports link
-    Then Click on import users
-    Then Click on upload user csv file
-    And Verify csv uploaded
-    
-    Scenario: Check Import Group templates
-    Given Click on imports link
-    Then Click on import group templates
-    Then Click on upload user csv file
-    And Verify csv uploaded
-    
-    Scenario: Check Import groups
-    Given Click on imports link
-    Then Click on import groups
-    Then Click on upload user csv file
-    And Verify csv uploaded
-    
-    Scenario: Check Import membership
-    Given Click on imports link
-    Then Click on import membership
-    Then Click on upload user csv file
-    And Verify csv uploaded
+#	Scenario: Check Import Hirarchy
+#    Given Click on imports link
+#    Then Click on import hirarchy
+#    Then Click on upload user csv file
+#    And Verify csv uploaded
+#    
+#    Scenario: Check Import Group templates
+#    Given Click on imports link
+#    Then Click on import group templates
+#    Then Click on upload user csv file
+#    And Verify csv uploaded
+#    
+#    Scenario: Check Import groups
+#    Given Click on imports link
+#    Then Click on import groups
+#    Then Click on upload user csv file
+#    And Verify csv uploaded
+#    
+#    Scenario: Check Import membership
+#    Given Click on imports link
+#    Then Click on import membership
+#    Then Click on upload user csv file
+#    And Verify csv uploaded
