@@ -38,20 +38,35 @@ public class Login_steps extends Driver_class{
 	public void user_click_on_signin_button() throws IOException  {
 		log.user_click_on_signin_button();
 	 //check 2
-
-	
+		
 	   	}
 	
+
+	@Given("^User is on home page admin$")
+	public void user_is_on_home_page_admin() throws Throwable {
+		log = new Login_Class(driver);
+		boolean bool = false;
+		log.verify_homepage(bool);
+	    
+	}
 	@Given("^Click on imports link$")
-	public void click_on_imports_link() throws IOException {
+	public void click_on_imports_link() throws IOException, InterruptedException {
 		log = new Login_Class(driver);
 		log.Click_on_import_button();
 	    
 	}
+	
+	@Given("^user is on imports page$")
+	public void user_is_on_imports_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+	
 	@Then("^Click on import users$")
-	public void click_on_import_users() throws IOException {
+	public void click_on_import_users() throws IOException, InterruptedException {
 		log = new Login_Class(driver);
-	   log.Hirarchy_File_upload();
+		log.User_import();
+	   
 	   
 	}
 
@@ -61,15 +76,16 @@ public class Login_steps extends Driver_class{
 	    
 	}
 
-	@Then("^Verify user csv uploaded$")
-	public void verify_user_csv_uploaded() throws Throwable {
+	@Then("^Verify csv uploaded$")
+	public void verify_csv_uploaded() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    
 	}
 	
 	@Then("^Click on import hirarchy$")
-	public void click_on_import_hirarchy()  {
-	    // Write code here that turns the phrase above into concrete actions
+	public void click_on_import_hirarchy() throws IOException, InterruptedException  {
+		log = new Login_Class(driver);
+		log.Hirarchy_File_upload();
 	    
 	}
 	

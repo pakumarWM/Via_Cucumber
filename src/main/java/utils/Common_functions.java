@@ -10,6 +10,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -84,6 +85,11 @@ public class Common_functions {
 		
 	}
 	
+	public static void printstatement(String element)
+	{
+		System.out.println(element);		
+	}
+	
 	public void wait(int wait) throws InterruptedException{
 		Thread.sleep(wait);
 	}
@@ -129,6 +135,19 @@ public class Common_functions {
         String rename_email = Current_Date+code;
         return rename_email;        
     }
+	
+	public WebElement elementPresence(By by,WebDriver driver,int wait){
+		common_wait(wait, by, driver);
+		return driver.findElement(by);
+	}
 
+	public boolean presentelemnet(By by,WebDriver driver,int wait,boolean present){
+		common_wait(wait, by, driver);
+		if(driver.findElements(by).size() >0);{
+			return present=true;
+		}
+		
+		
+	}
 }
 
